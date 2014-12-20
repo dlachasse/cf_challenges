@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <style>
+      input[type="text"] {
+        margin: 1em auto;
+        font-size: 3em;
+        display: block;
+        padding: 1em;
+      }
+      button {
+        display: inline-block;
+        font-size: 1.5em;
+        margin: 0 auto;
+        width: 100%;
+      }
+      #todos {
+        text-align: center;
+        font-size: 10em;
+        line-height: 1;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <input type="text" name="newTodo" placeholder="What do you need to do?">
+      <button type="submit">Submit</button>
+    </form>
+    <ul id="todos">
+    </ul>
+    <script type='text/javascript' src='todo-complete.js'></script>
+</body>
+</html>
